@@ -1,0 +1,128 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "playerOnePokemonId",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "playerTwoPokemonId",
+				"type": "uint256"
+			}
+		],
+		"name": "battle",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint32",
+				"name": "_origin",
+				"type": "uint32"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "_sender",
+				"type": "bytes32"
+			},
+			{
+				"internalType": "bytes",
+				"name": "_message",
+				"type": "bytes"
+			}
+		],
+		"name": "handle",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_pokemonAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_pikaCoinAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_mailbox",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "winner",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "loser",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "reward",
+				"type": "uint256"
+			}
+		],
+		"name": "BattleResult",
+		"type": "event"
+	},
+	{
+		"inputs": [],
+		"name": "mailbox",
+		"outputs": [
+			{
+				"internalType": "contract IMailbox",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "pikaCoin",
+		"outputs": [
+			{
+				"internalType": "contract PikaCoin",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "pokemonContract",
+		"outputs": [
+			{
+				"internalType": "contract Pokemon",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

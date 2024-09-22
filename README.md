@@ -1,6 +1,37 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Upperworld: Cross-Chain Pokémon-Style Adventure
+Project Description:
+
+Upperworld is an innovative, on-chain multiplayer game that brings the beloved Pokémon concept into the world of blockchain technology. Players can catch, battle, and earn across different networks, creating a truly decentralized gaming experience.
+
+Rootstock Integration
+We integrated Rootstock by deploying our core game contracts (Pokemon, PikaCoin, and PokemonBattle) on the Rootstock testnet. This allows us to leverage Bitcoin's robust security model while enabling complex game logic and NFT interactions. The main Pokemon contract is deployed at 0xA7D5FcEb3e860618336753c19b668b2fA76Be47E.
+
+```
+https://rootstock.blockscout.com/address/0xA7D5FcEb3e860618336753c19b668b2fA76Be47E
+```
+
+Key benefits of using Rootstock:
+
+Bitcoin Network Security
+Smart Contract Functionality
+Low Transaction Costs
+Growing Ecosystem
+
+
+To test the Upperworld integration with Rootstock:
+
+Connect to the Rootstock testnet in your Web3 wallet (e.g., MetaMask).
+Interact with the Pokemon contract at 0xA7D5FcEb3e860618336753c19b668b2fA76Be47E:
+
+Call the safeMint function to create a new Pokemon NFT.
+Use getPokemonStats to view the randomly generated stats of your Pokemon.
+
+
+(Once deployed) Interact with the PokemonBattle contract to initiate battles.
+Check your wallet for PIKA tokens received as rewards after battles.
+
 
 First, run the development server:
 
