@@ -1,0 +1,22 @@
+.card {
+    background-color: #1e1e1e;
+    border: 2px solid #00FFFF;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .name {
+    color: #FF10F0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stats {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stats li {
+    margin-bottom: 0.5rem;
+  }
